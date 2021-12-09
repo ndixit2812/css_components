@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    animation: changeBG 10s linear infinite ;
+    display: grid;
+    place-items: center;
+}
+
+@keyframes changeBG {
+    0%{
+        background-color: rgb(88, 88, 223);
+    }
+    15%{
+        background-color:  rgb(108, 197, 233) ;
+    }
+    25%{
+        background-color:  rgb(114, 114, 168);
+    }
+    35%{
+        background-color: rgb(187, 226, 13);
+    }
+    45%{
+        background-color: rgb(201, 119, 13);
+    }
+    55%{
+        background-color: rgb(97, 212, 97);
+    }
+    65%{
+        background-color: rgb(14, 170, 190);
+    }
+    75%{
+        background-color: rgb(211, 100, 187);
+    }
+    85%{
+        background-color: rgb(204, 71, 111);
+    }
+    100%{
+        background-color: rgb(226, 111, 111) ;
+    }
+}
